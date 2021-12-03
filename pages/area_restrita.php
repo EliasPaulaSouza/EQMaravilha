@@ -1,3 +1,11 @@
+<?php 
+session_start();
+if (!isset($_SESSION['logado'])) {
+  header("Location: /"); 
+  die();
+}
+
+?>
 <!DOCTYPE html>
 <!--
 Template Name: Nocobot
@@ -108,30 +116,43 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <main class="container vh-100 mt-5">
-      <div class="row h-100 d-flex align align-items-center">
+    <a class="btn btn-primary" href="/pages/deslogar.php">Deslogar</a>
+     
+        <table class="table table-hover mt-3">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Email</th>
+              <th scope="col">Avaliação</th>
+              <th scope="col">Comentario</th>
+              <th scope="col">Situação</th>
+              <th scope="col">Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">identificador</td>
+              <td><strong>nome</strong>
+               
+              </td>
+              <td>email</td>
+              <td>avaliação</td>
+              <td>comentario</td>
+              <td>situação <span class="badge badge-success">Publicado</span>  <span class="badge badge-danger">Cadastrado</span></td>
+
+        
+              <td>
+                <a class="btn btn-primary" href="/public/pages/produto/form.php?id=1">Publicar</a>
+               
+              </td>
+        
+            </tr>
+        
+          </tbody>
+        </table>
           
-          <section class="col-12 col-md-6">
-              <header>
-                  <img src="../images/login.svg" alt="image" class="figure-img img-fluid rounded">
-              </header>    
-          </section>
-          <section class="col-12 col-md-6 p-5 bg-light">
-              <header>
-                  <h1>Login</h1>
-              </header>
-              <form action="#" method="post">
-              <div class="form-floating mb-3">        
-                  <input type="usuario" class="form-control" id="usuario" name="usuario">
-                  <label for="usuario">Login</label>    
-              </div>
-              <div class="form-floating mb-3">        
-                  <input type="password" class="form-control" id="senha" name="senha">
-                  <label for="senha" >Senha</label>
-              </div>    
-              <button type="submit" class="btn btn-primary">Logar</button>
-              </form>
-          </section>
-      </div>
+      
   </main>
     <!-- ################################################################################################ -->
     <!-- / main body -->
