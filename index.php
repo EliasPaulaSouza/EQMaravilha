@@ -35,21 +35,9 @@ Licence URI: https://www.os-templates.com/template-terms
     </div>
     <div class="fl_right"> 
       <!-- ################################################################################################ -->
-      <ul class="nospace">
-        <li><a href="pages/formulario_login.php" title="Login"><i class="fas fa-sign-in-alt"></i></a></li>
-      <!-- <li><a href="#" title="Sign Up"><i class="fas fa-edit"></i></a></li>
-        <li id="searchform">
-          <div>
-            <form action="#" method="post">
-              <fieldset>
-                <legend>Quick Search:</legend>
-                <input type="text" placeholder="Enter search term&hellip;">
-                <button type="submit"><i class="fas fa-search"></i></button>
-              </fieldset>
-            </form>
-          </div>
-        </li>--> 
-      </ul>
+      <?php
+  include_once __DIR__.'/pages/componentes/menu_pequeno.php';   
+   ?>
       <!-- ################################################################################################ -->
     </div>
   </div>
@@ -61,35 +49,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <div class="bgded" style="background:url('artes/FUNDO.png') repeat;"> 
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
-    <header id="header" class="hoc clear">
-      <div id="logo" class="fl_left"> 
-        <!-- ################################################################################################ -->
-        <h1><a href="index.html">EQ MARAVILHA</a></h1>
-        <!-- ################################################################################################ -->
-      </div>
-       <nav id="mainav" class="fl_right"> 
-    
-      <ul class="clear">
-          <li class="active"><a href="index.php">Home</a></li>
-         <!--    <li><a class="drop" href="#">Pages</a>
-            <ul>
-              <li><a href="pages/gallery.html">Gallery</a></li>
-              <li><a href="pages/full-width.html">Full Width</a></li>
-              <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
-              <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
-              <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-              <li><a href="pages/font-icons.html">Font Icons</a></li>
-            </ul> 
-          </li>-->
-     
-          <li><a href="pages/objetivo.html">OBJETIVO</a></li>
-          <li><a href="pages/metodologia.html">METODOLOGIA</a></li>
-          <li><a href="pages/quadrinhos.html">QUADRINHOS</a></li>
-          <li><a href="pages/avalie-nos.php">AVALIE-NOS</a></li>
-        </ul>
-        <!-- ################################################################################################ -->
-      </nav>
-    </header>
+   <?php
+  include_once __DIR__.'/pages/componentes/menu.php';   
+   ?>
   </div>
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->

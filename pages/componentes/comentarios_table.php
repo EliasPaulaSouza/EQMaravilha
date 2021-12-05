@@ -1,5 +1,5 @@
 <?php 
-require_once __DIR__.'/conexao.php'; 
+require_once __DIR__.'/../controllers/conexao.php'; 
  
 //define a query SQL a ser executada
 $statement = $pdo->query("SELECT * FROM comentarios ORDER BY data DESC");
@@ -29,7 +29,7 @@ if(isset($comentarios )){
       .'  <td>'.$comentario->comentario.'</td>'
       //.'  <td>'.$comentario->situacao.'</td>'
      .'   <td>'.$situacao.' </td>'
- .'  <td> <a class="btn btn-primary" href="/pages/publicar_comentario.php?id='.$comentario->id.'&situacao='.$acoes.'">'.$acoes.'</a> </td>';   
+ .'  <td> <a class="btn btn-primary" href="/pages/controllers/publicar_comentario.php?id='.$comentario->id.'&situacao='.$acoes.'">'.$acoes.'</a> </td>';   
       echo "</tr>";
     }
 

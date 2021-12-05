@@ -1,5 +1,5 @@
 <?php 
-require_once __DIR__.'/conexao.php'; 
+require_once __DIR__.'/../controllers/conexao.php'; 
  
 //define a query SQL a ser executada
 $statement = $pdo->query("SELECT * FROM comentarios  WHERE situacao = 1 ORDER BY data DESC");
@@ -18,7 +18,7 @@ echo "<ul>";
         "<li>"
         ."<article>"
          ."<header>"
-           .'<figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>'
+           .'<figure class="avatar"><img src="/images/demo/avatar.png" alt=""></figure>'
             ."<address>"
          ."{$comentario->nome}"
            ." </address>"

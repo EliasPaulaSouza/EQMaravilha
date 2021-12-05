@@ -94,6 +94,18 @@
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
+<script>
+  function change_page() {
+      var control = document.getElementById('control-paginas');
+      var new_page = control.value;
+      var old_url = location.href;
+      var url_split = old_url.split('/');
+      url_split[url_split.length - 1] = new_page == 0 ? 'quadrinhos.php': `quadrinhos_${new_page}.php`;
+      var new_url = url_split.join('/');
+      location.href = new_url;
+  }
+
+</script>
 <script src="/layout/scripts/jquery.min.js"></script>
 <script src="/layout/scripts/jquery.backtotop.js"></script>
 <script src="/layout/scripts/jquery.mobilemenu.js"></script>
