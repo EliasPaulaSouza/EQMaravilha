@@ -73,7 +73,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li><a href="objetivo.html">OBJETIVO</a></li>
           <li><a href="metodologia.html">METODOLOGIA</a></li>
           <li><a href="quadrinhos.html">QUADRINHOS</a></li>
-          <li><a href="avalie-nos.html">AVALIE-NOS</a></li>
+          <li><a href="avalie-nos.php">AVALIE-NOS</a></li>
         </ul>
         <!-- ################################################################################################ -->
       </nav>
@@ -114,8 +114,8 @@ Licence URI: https://www.os-templates.com/template-terms
      
      
       <div id="comments">
-     <!--  <h2>Comments</h2>
-        <ul>
+       <h2>Comments</h2>
+       <!-- <ul>
           <li>
             <article>
               <header>
@@ -126,7 +126,7 @@ Licence URI: https://www.os-templates.com/template-terms
                 <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
               </header>
               <div class="comcont">
-                <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                <p></p>
               </div>
             </article>
           </li>
@@ -159,11 +159,15 @@ Licence URI: https://www.os-templates.com/template-terms
             </article>
           </li>
         </ul>-->
+        <?php
+        include_once __DIR__.'/comentarios_list_item.php';
+        ?> 
+
         <h2>Deixe seu comentario</h2>
-        <form action="#" method="post">
+        <form action="/pages/cadastrar_comentario.php" method="post">
           <div class="one_third first">
             <label for="name">Nome <span>*</span></label>
-            <input type="text" name="name" id="name" value="" size="22" required>
+            <input type="text" name="nome" id="name" value="" size="22" required>
           </div>
           <div class="one_third">
             <label for="email">Email <span>*</span></label>
@@ -171,11 +175,11 @@ Licence URI: https://www.os-templates.com/template-terms
           </div>
           <div class="one_third">
             <label for="range">Avaliação </label>
-            <input type="range" name="range" id="range" value="" size="22" min="1" max="5" step="0.5">
+            <input type="range" name="avaliacao" id="range" value="" size="22" min="1" max="5" step="1">
           </div>
           <div class="block clear">
             <label for="comment"></label>
-            <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+            <textarea name="comentario" id="comment" cols="25" rows="10"></textarea>
           </div>
           <div>
             <input type="submit" name="submit" value="Enviar">

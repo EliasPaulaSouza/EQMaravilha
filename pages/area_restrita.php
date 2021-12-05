@@ -84,7 +84,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li><a href="objetivo.html">OBJETIVO</a></li>
           <li><a href="metodologia.html">METODOLOGIA</a></li>
           <li><a href="quadrinhos.html">QUADRINHOS</a></li>
-          <li><a href="avalie-nos.html">AVALIE-NOS</a></li>
+          <li><a href="avalie-nos.php">AVALIE-NOS</a></li>
         </ul>
         <!-- ################################################################################################ -->
       </nav>
@@ -124,6 +124,7 @@ Licence URI: https://www.os-templates.com/template-terms
               <th scope="col">#</th>
               <th scope="col">Nome</th>
               <th scope="col">Email</th>
+              <th scope="col">Data Cadastro</th>
               <th scope="col">Avaliação</th>
               <th scope="col">Comentario</th>
               <th scope="col">Situação</th>
@@ -131,24 +132,9 @@ Licence URI: https://www.os-templates.com/template-terms
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td scope="row">identificador</td>
-              <td><strong>nome</strong>
-               
-              </td>
-              <td>email</td>
-              <td>avaliação</td>
-              <td>comentario</td>
-              <td>situação <span class="badge badge-success">Publicado</span>  <span class="badge badge-danger">Cadastrado</span></td>
-
-        
-              <td>
-                <a class="btn btn-primary" href="/public/pages/produto/form.php?id=1">Publicar</a>
-               
-              </td>
-        
-            </tr>
-        
+          <?php
+        include_once __DIR__.'/comentarios_table.php';
+        ?> 
           </tbody>
         </table>
           
