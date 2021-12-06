@@ -1,7 +1,5 @@
 <?php
-const DB_HOST = 'mysql:host=localhost:3306;dbname=eqmaravilha_db';
-const DB_USUARIO = 'root';
-const DB_SENHA = '';
+require_once __DIR__.'/../../configuracoes.php'; 
 
 try {
     $pdo = new PDO(DB_HOST, DB_USUARIO, DB_SENHA);
