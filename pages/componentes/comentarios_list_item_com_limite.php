@@ -2,7 +2,7 @@
 require_once __DIR__.'/../controllers/conexao.php'; 
  
 //define a query SQL a ser executada
-$statement = $pdo->query("SELECT * FROM comentarios  WHERE situacao = 1 ORDER BY data DESC");
+$statement = $pdo->query("SELECT * FROM comentarios  WHERE situacao = 1 ORDER BY data DESC LIMIT 10");
 //define o modo de busca para obter os registros como objetos
 $statement->setFetchMode(PDO::FETCH_OBJ);
 //busca todos os registros
@@ -32,4 +32,5 @@ echo "<ul>";
      ." </li>";
     }
     echo "</ul>";
+    echo ' <a style=" display: block; text-align: center; margin: 30px 0;" href="/pages/avalie-nos.php">Ver Todos os Comentarios</a>';
 }
