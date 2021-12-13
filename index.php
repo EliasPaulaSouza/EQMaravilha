@@ -9,104 +9,106 @@ Licence URI: https://www.os-templates.com/template-terms
 -->
 <html lang="">
 <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+
 <head>
-  
-<title>EQ MARAVILHA</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <title>EQ MARAVILHA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 </head>
+
 <body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row0">
-  <div id="topbar" class="hoc clear">
-    <div class="fl_left"> 
-      <!-- ################################################################################################ -->
-      <!--AQUI FOI COMENTADO UMA PARTE ENTÃO QUALQUER COISA VOLTA AQUI -->
-     <!--   <ul class="nospace">
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+    <div id="topbar" class="hoc clear">
+      <div class="fl_left">
+        <!-- ################################################################################################ -->
+        <!--AQUI FOI COMENTADO UMA PARTE ENTÃO QUALQUER COISA VOLTA AQUI -->
+        <!--   <ul class="nospace">
 
     <li><i class="fas fa-phone rgtspace-5"></i> +00 (123) 456 7890</li>
         <li><i class="far fa-envelope rgtspace-5"></i> info@domain.com</li> 
-      </ul>-->  
-      <!-- ################################################################################################ -->
-    </div>
-    <div class="fl_right"> 
-      <!-- ################################################################################################ -->
-      <?php
-  include_once __DIR__.'/pages/componentes/menu_pequeno.php';   
-   ?>
-      <!-- ################################################################################################ -->
-    </div>
-  </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- Top Background Image Wrapper -->
-<div class="bgded" style="background:url('artes/FUNDO.png') repeat;"> 
-  <!-- ################################################################################################ -->
-  <div class="wrapper row1">
-   <?php
-  include_once __DIR__.'/pages/componentes/menu.php';   
-   ?>
-  </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <div class="overlay">
-    <div id="pageintro" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <article>
-        <h3 class="heading">Escola em Quadrinhos</h3>
-        <p>Conhecendo o IFMS através de histórias em quadrinhos.</p>
-  <!--    <footer><a class="btn" href="#">vem chegando aqui é o inicio</a></footer>-->
-      </article>
-      <!-- ################################################################################################ -->
+      </ul>-->
+        <!-- ################################################################################################ -->
+      </div>
+      <div class="fl_right">
+        <!-- ################################################################################################ -->
+        <?php
+        include_once __DIR__ . '/pages/componentes/menu_pequeno.php';
+        ?>
+        <!-- ################################################################################################ -->
+      </div>
     </div>
   </div>
   <!-- ################################################################################################ -->
-</div>
-<!-- End Top Background Image Wrapper -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <!-- main body -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- Top Background Image Wrapper -->
+  <div class="bgded" style="background:url('artes/FUNDO.png') repeat;">
     <!-- ################################################################################################ -->
-    <section id="introblocks">
-      <ul class="nospace group btmspace-80">
-        <li class="one_third first">
-          <figure><a class="imgover" ><img src="artes/personagem_arthur.jpeg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Mike</h6>
-              <div>
-                <p>Personagem masculino, com seus 15 anos, prestes a cursar o técnico integrado em Informática.
-                  Bem medroso, mas tem como prioridade se enturmar. Sendo medroso ele acaba se atrapalhando em qualquer atividade.
-                  Não gosta da ideia de tomar cafeína por medo de aumentar sua adrenalina.
-                  
+    <div class="wrapper row1">
+      <?php
+      include_once __DIR__ . '/pages/componentes/menu.php';
+      ?>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <div class="overlay">
+      <div id="pageintro" class="hoc clear">
+        <!-- ################################################################################################ -->
+        <article>
+          <h3 class="heading">Escola em Quadrinhos</h3>
+          <p>Conhecendo o IFMS através de histórias em quadrinhos.</p>
+          <!--    <footer><a class="btn" href="#">vem chegando aqui é o inicio</a></footer>-->
+        </article>
+        <!-- ################################################################################################ -->
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- End Top Background Image Wrapper -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row3">
+    <main class="hoc container clear">
+      <!-- main body -->
+      <!-- ################################################################################################ -->
+      <section id="introblocks">
+        <ul class="nospace group btmspace-80">
+          <li class="one_third first">
+            <figure><a class="imgover"><img src="artes/personagem_arthur.jpeg" alt=""></a>
+              <figcaption>
+                <h6 class="heading">Mike</h6>
+                <div>
+                  <p>Personagem masculino, com seus 15 anos, prestes a cursar o técnico integrado em Informática.
+                    Bem medroso, mas tem como prioridade se enturmar. Sendo medroso ele acaba se atrapalhando em qualquer atividade.
+                    Não gosta da ideia de tomar cafeína por medo de aumentar sua adrenalina.
+
                   </p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="one_third">
-          <figure><a class="imgover" ><img src="artes/personagem_shin.jpeg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Jonas</h6>
-              <div>
-                <p>Personagem masculino cursando seu segundo ano no Técnico Integrado em Informática.
-Ele é e gosta de ser o engraçado da turma, compartilha várias situações que já passou.
-Além de situações gosta de bancar o sábio mesmo que nem sempre é a informação correta(para ele é). Odeia mentiras e é o mais sincero possível. Seu visual é bem diferenciado dos demais.
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="one_third">
+            <figure><a class="imgover"><img src="artes/personagem_shin.jpeg" alt=""></a>
+              <figcaption>
+                <h6 class="heading">Jonas</h6>
+                <div>
+                  <p>Personagem masculino cursando seu segundo ano no Técnico Integrado em Informática.
+                    Ele é e gosta de ser o engraçado da turma, compartilha várias situações que já passou.
+                    Além de situações gosta de bancar o sábio mesmo que nem sempre é a informação correta(para ele é). Odeia mentiras e é o mais sincero possível. Seu visual é bem diferenciado dos demais.
                   </p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-       <!-- <li class="one_third">
+                </div>
+              </figcaption>
+            </figure>
+          </li>
+          <!-- <li class="one_third">
           <figure><a class="imgover" href="#"><img src="artes/personagem_bruno.png" alt=""></a>
             <figcaption>
               <h6 class="heading">Bruno</h6>
@@ -119,48 +121,58 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
             </figcaption>
           </figure>
         </li>-->
-        <li class="one_third">
-          <figure><a class="imgover" ><img src="artes/pergonagem_sofi.jpeg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Helena</h6>
-              <div>
-                <p>Acaba virando uma amiga e colega de classe de Mike, completando seus 15 anos.
-                  É extrovertida e gosta de tudo que envolve arte, gosta de sair da realidade. Diferente de Mike ela gosta da adrenalina que a cafeína produz, tornando ela ativa cada vez mais
-                  Sozinha sempre gostou de inovar e abusar da criatividade, mas com o passar do tempo começou a distribuir esse dom ajudando alguém que também se sentia sozinha.
+          <li class="one_third">
+            <figure><a class="imgover"><img src="artes/pergonagem_sofi.jpeg" alt=""></a>
+              <figcaption>
+                <h6 class="heading">Helena</h6>
+                <div>
+                  <p>Acaba virando uma amiga e colega de classe de Mike, completando seus 15 anos.
+                    É extrovertida e gosta de tudo que envolve arte, gosta de sair da realidade. Diferente de Mike ela gosta da adrenalina que a cafeína produz, tornando ela ativa cada vez mais
+                    Sozinha sempre gostou de inovar e abusar da criatividade, mas com o passar do tempo começou a distribuir esse dom ajudando alguém que também se sentia sozinha.
                   </p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-      
-      </ul>
-    </section>
-    <!-- ################################################################################################ -->
-    <hr class="btmspace-80">
-    <!-- ################################################################################################ -->
-    <section class="group">
-      <div class="one_half first" ><a href="/pages/quadrinhos.php"><img  class="inspace-15 borderedbox" src="artes/00.jpg" alt=""></a> <a href="/pages/quadrinhos.php"><button type="button" class="btn btn-danger">Ler</button></a></div>
-      <div class="one_half">
-    
-        <ul class="nospace group inspace-15">
-          <li>
-            <article>
-              <h6 class="heading"><a style="color: #A52A2A;" >sinopse</a></h6>
-              <p class="nospace">Se passa no mundo real, em uma Instituição Federal(IF), demarcando as sensações desses alunos. O protagonista com seus amigos, abordará em cada capítulo uma dificuldade que estudantes enfrentam ao longo do tempo dentro do IF.
-              </p>
-            </article>
+                </div>
+              </figcaption>
+            </figure>
           </li>
-          <br>
-          <li>
-            <article>
-              <h6 class="heading"><a style="color: #A52A2A;">Público Alvo</a></h6>
-              <p class="nospace">Com roteiros repletos de humor e instruções, a HQ é destinada para futuros integrantes da instituição.
+
+        </ul>
+      </section>
+      <!-- ################################################################################################ -->
+      <hr class="btmspace-80">
+      <!-- ################################################################################################ -->
+      <section class="group">
+        <div class="one_half first"><a href="/pages/quadrinhos.php"><img class="inspace-15 borderedbox" src="artes/00.jpg" alt=""></a> <a href="/pages/quadrinhos.php"><button type="button" class="btn btn-danger">Ler</button></a></div>
+        <div class="one_half">
+
+          <ul class="nospace group inspace-15">
+            <li>
+              <article>
+                <h6 class="heading"><a style="color: #A52A2A;">Introdução</a></h6>
+                <p class="nospace">
+                  Esta página se destina a divulgação da história em quadrinhos criada durante o Trabalho de Conclusão de Curso dos Alunos:
+                  Aghata Pereira Pigari e Elias de Paula Souza do Curso Técnico Integrado em Informática do Instituto Federal de Mato Grosso do Sul campus Jardim.
+                  Com esse trabalho esperamos apresentar o capitulo piloto da série de histórias em quadrinhos que divulgaria assuntos relevantes a novatos e futuros integrantes da instituição.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <h6 class="heading"><a style="color: #A52A2A;">sinopse</a></h6>
+                <p class="nospace">Se passa no mundo real, em uma Instituição Federal(IF), demarcando as sensações desses alunos. O protagonista com seus amigos, abordará em cada capítulo uma dificuldade que estudantes enfrentam ao longo do tempo dentro do IF.
+                </p>
+              </article>
+            </li>
+            <br>
+            <li>
+              <article>
+                <h6 class="heading"><a style="color: #A52A2A;">Público Alvo</a></h6>
+                <p class="nospace">Com roteiros repletos de humor e instruções, a HQ é destinada para futuros integrantes da instituição.
 
 
-              </p>
-            </article>
-          </li>
-    <!--<li class="one_half btmspace-50">
+                </p>
+              </article>
+            </li>
+            <!--<li class="one_half btmspace-50">
             <article>
               <h6 class="heading"><a href="#">Pellentesque ipsum</a></h6>
               <p class="nospace">Ut quam imperdiet tincidunt vestibulum eget magna eget sem imperdiet tincidunt praesent sit amet adipiscing&hellip;</p>
@@ -177,19 +189,19 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
               <h6 class="heading"><a href="#">Volutpat vitae</a></h6>
               <p class="nospace">Elit purus non odio etiam dictum euismod lectus vestibulum tincidunt erat vel molestie gravida ligula lacus&hellip;</p>
             </article>
-          </li>--> 
-        </ul>
-      </div>
-    </section>
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
-    <div class="clear"></div>
-  </main>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-   <!--<div class="bgded overlay" style="background:url('artes/FUNDO2.png') repeat;">
+          </li>-->
+          </ul>
+        </div>
+      </section>
+      <!-- ################################################################################################ -->
+      <!-- / main body -->
+      <div class="clear"></div>
+    </main>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!--<div class="bgded overlay" style="background:url('artes/FUNDO2.png') repeat;">
   <figure class="hoc container clear imgroup"> 
   ################################################################################################ 
     <figcaption class="sectiontitle">
@@ -210,44 +222,44 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
   
   </section>
 </div>-->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<div class="wrapper row2" >
-  <div class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-    <!--  <p class="nospace font-xs">uma apresentação breve de </p>-->
-      <p class="heading underline font-x2">quem somos nós</p>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row2">
+    <div class="hoc container clear">
+      <!-- ################################################################################################ -->
+      <div class="sectiontitle">
+        <!--  <p class="nospace font-xs">uma apresentação breve de </p>-->
+        <p class="heading underline font-x2">quem somos nós</p>
+      </div>
+      <ul class="nospace group team">
+        <li class="one_quarter first">
+          <figure><a class="imgover"><img src="" alt=""></a>
+            <figcaption><strong>Aurelio Vargas Ramos Junior </strong><em>ORIENTADOR</em></figcaption>
+          </figure>
+        </li>
+        <li class="one_quarter">
+          <figure><a class="imgover"><img src="" alt=""></a>
+            <figcaption><strong>Aghata Pereira Pigari</strong> <em>ESTUDANTE</em></figcaption>
+          </figure>
+        </li>
+        <li class="one_quarter">
+          <figure><a class="imgover"><img src="" alt=""></a>
+            <figcaption><strong>Elias De Paula Souza</strong> <em>ESTUDANTE</em></figcaption>
+          </figure>
+        </li>
+        <li class="one_quarter">
+          <figure><a class="imgover"><img src="" alt=""></a>
+            <figcaption><strong>Camila Yumi Koike</strong> <em>COORIENTADORA</em></figcaption>
+          </figure>
+        </li>
+      </ul>
+      <!-- ################################################################################################ -->
     </div>
-    <ul class="nospace group team">
-      <li class="one_quarter first">
-        <figure><a class="imgover"><img src="" alt=""></a>
-          <figcaption><strong>Aurelio Vargas Ramos Junior </strong><em>ORIENTADOR</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover"><img src="" alt=""></a>
-          <figcaption><strong>Aghata Pereira Pigari</strong> <em>ESTUDANTE</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover"><img src="" alt=""></a>
-          <figcaption><strong>Elias De Paula Souza</strong> <em>ESTUDANTE</em></figcaption>
-        </figure>
-      </li>
-      <li class="one_quarter">
-        <figure><a class="imgover"><img src="" alt=""></a>
-          <figcaption><strong>Camila Yumi Koike</strong> <em>COORIENTADORA</em></figcaption>
-        </figure>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
   </div>
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ 
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ 
 <div class="wrapper row3">
   <figure class="hoc container clear clients"> 
     
@@ -269,8 +281,8 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
   </figure>
 </div>-->
 
-      <!--ola aqui é a outra parte comentada blz-->
-<!--
+  <!--ola aqui é a outra parte comentada blz-->
+  <!--
 
 <div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
   <section id="testimonials" class="hoc container clear"> 
@@ -346,9 +358,9 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
  
   </section>
 </div>-->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<?php
-include_once __DIR__.'/pages/componentes/rodape.php';
-?>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <?php
+  include_once __DIR__ . '/pages/componentes/rodape.php';
+  ?>

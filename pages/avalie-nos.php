@@ -78,9 +78,10 @@ Licence URI: https://www.os-templates.com/template-terms
       <!-- ################################################################################################ -->
       <div class="content">
         <!-- ################################################################################################ -->
-        <h1>Avalie-nos humildemente pois estamos passando mal</h1>
+        <h1>Deixe aqui suas sugestões, elogios, críticas e opiniões sobre o projeto </h1>
 
-        <p>essa sessao sera escrita mais tarde</p>
+        <p>Diga-nos o que você achou do projeto e deixe sugestões de assuntos para novas histórias!
+Suas ideias e sugestões são importantes para nós, comentários de leitores como você nos ajudam a aperfeiçoar nosso trabalho.</p>
 
 
 
