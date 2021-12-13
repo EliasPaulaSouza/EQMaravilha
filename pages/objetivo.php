@@ -46,6 +46,7 @@ Licence URI: https://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <div class="wrapper row1">
   <?php
+   $pagina='objetivo';
   include_once __DIR__.'/componentes/menu.php';   
    ?>
   </div>

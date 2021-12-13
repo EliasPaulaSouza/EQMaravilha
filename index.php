@@ -38,6 +38,7 @@ Licence URI: https://www.os-templates.com/template-terms
       <div class="fl_right">
         <!-- ################################################################################################ -->
         <?php
+        $pagina='home';
         include_once __DIR__ . '/pages/componentes/menu_pequeno.php';
         ?>
         <!-- ################################################################################################ -->

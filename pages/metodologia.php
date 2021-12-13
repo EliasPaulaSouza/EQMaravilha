@@ -34,6 +34,7 @@ Licence URI: https://www.os-templates.com/template-terms
       <div class="fl_right">
         <!-- ################################################################################################ -->
         <?php
+         $pagina='metodologia';
         include_once __DIR__ . '/componentes/menu_pequeno.php';
         ?>
         <!-- ################################################################################################ -->
