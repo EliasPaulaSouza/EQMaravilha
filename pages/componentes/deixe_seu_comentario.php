@@ -1,5 +1,10 @@
+<?php
+  echo $mensagem ?? '';
+?>
 <h2 style=" margin: 30px 0;">Deixe seu comentario</h2>
 <form action="/pages/controllers/cadastrar_comentario.php" method="post">
+  <input type="hidden" name="numero_pagina" value="<?php echo $numero_pagina ?>">
+  <input type="hidden" name="pagina" value="<?php echo $pagina ?>">
   <div class="one_third first">
     <label for="name">Nome <span>*</span></label>
     <input type="text" name="nome" id="name" value="" size="22" required>

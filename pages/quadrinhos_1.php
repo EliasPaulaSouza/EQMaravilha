@@ -38,6 +38,7 @@ Licence URI: https://www.os-templates.com/template-terms
         <!-- ################################################################################################ -->
         <?php
          $pagina='quadrinhos';
+         $numero_pagina = 1;
         include_once __DIR__ . '/componentes/menu_pequeno.php';
         ?>
         <!-- ################################################################################################ -->
