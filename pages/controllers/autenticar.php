@@ -1,11 +1,13 @@
 <?php 
 session_start();
 
+require_once __DIR__.'/../../configuracoes.php';
+
 $usuario = filter_input(INPUT_POST,'usuario',FILTER_SANITIZE_STRING);
 $senha = filter_input(INPUT_POST,'senha',FILTER_SANITIZE_STRING);
 
 
-if($usuario == "admin" and $senha == "123"){    
+if($usuario == ADMINISTRADOR_LOGIN and $senha == ADMINISTRADOR_SENHA){    
     $_SESSION['logado'] = true;
     if(isset($_SESSION['errors'])){
         unset($_SESSION['errors']);
