@@ -9,7 +9,7 @@
         <div class="block clear"><a href="https://www.instagram.com/aghataart/"><i class="fab fa-instagram"></i></a> <span><strong>Instagram</strong> aghataart </span></div>
       </li>
       <li class="one_quarter">
-        <div class="block clear"><a><i class="fas fa-clock"></i></a> <span><strong> Segunda - Sábado:</strong> 07:00am - 07:15pm</span></div>
+      <div class="block clear"><a href="https://github.com/EliasPaulaSouza/EQMaravilha"><i class="fab fa-github"></i></a> <span><strong> Github:</strong> Github/EQMaravilha</span></div> 
       </li>
       <li class="one_quarter">
         <div class="block clear"><a href="https://goo.gl/maps/3AuhZTySaWKiKxxP6"><i class="fas fa-map-marker-alt"></i></a> <span><strong>Venha nos visitar:</strong>Direções para <a href="https://goo.gl/maps/3AuhZTySaWKiKxxP6">nossa localização</a></span></div>

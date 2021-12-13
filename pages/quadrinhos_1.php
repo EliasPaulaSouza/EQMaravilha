@@ -17,6 +17,7 @@ Licence URI: https://www.os-templates.com/template-terms
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
   <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all" />
   <link rel="stylesheet" href="../layout/styles/custom.css">
+  
 </head>
 
 <body id="top">
