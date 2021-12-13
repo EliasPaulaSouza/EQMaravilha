@@ -1,5 +1,5 @@
 # Projeto EQMaravilha
-### Projeto de tcc do curso tecnico em informatica IFMS campus Jardim
+### Repositório de códigos do projeto de TCC
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-funcionalidades">Funcionalidades</a> • 
@@ -9,21 +9,20 @@
 </p>
 
 ## 💻 Sobre o projeto
-Repositorio do site do projeto de TCC dos alunos Aghata Pereira Pigari e Elias De Paula Souza
-com o objetivo de criar uma história em quadrinhos digital (HQ) para promover maior contextualização e familiarização dos estudantes ingressantes com o Instituto Federal campus Jardim.
-
-
+Repositório de códigos do site desenvolvido para o Trabalho de Conclusão de Curso (TCC) entitulado "EQMaravilha" dos alunos Aghata Pereira Pigari e Elias De Paula Souza do curso Técnico integrado em informática do Instituto Federal de Mato Grosso do Sul (IFMS) campus Jardim, 
+<br>nosso **objetivo** é criar uma história em quadrinhos digital para promover maior contextualização e familiarização dos estudantes ingressantes com o Instituto Federal.
 ---
 
 ## ⚙️ Funcionalidades
 
 - [X] Painel administrativo
-  - [X] publicar comentarios cadastrados
-  - [X] remover pubicação de comentarios
+  - [X] Publicar comentários cadastrados
+  - [X] Remover publicação de um comentário
+  - [ ] Gerenciar capítulos das HQ
   
 
-- [X] Area publica
-  - [X] adicionar comentario
+- [X] Área pública
+  - [X] Adicionar comentário
 
 ---
 ## 🚀 Como executar o projeto
@@ -33,6 +32,7 @@ com o objetivo de criar uma história em quadrinhos digital (HQ) para promover m
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [PHP](https://www.php.net/downloads) e [MySQL](https://www.mysql.com).
 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
 ### 🎲 Rodando o Projeto 
 
 #### Criando o banco de dados
@@ -40,28 +40,33 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 2. Crie um banco de dados com o nome `db_eqmaravilha`
 > Sugestão MariaDB ou MySQL: definição de collation: **utf8mb4_general_ci**
 
-3. Configure a conexão com os dados do banco de dados no arquivo `configuracoes.php`:
+3. Configure a conexão com os dados do banco de dados no arquivo [configuracoes.php](./configuracoes.php):
 ```php  
     const DB_HOST = 'DSN do banco';
     const DB_USUARIO = 'usuário do banco';
     const DB_SENHA = 'senha do banco';
-
+		const ADMINISTRADOR_LOGIN = 'login do usuario administrador';
+		const ADMINISTRADOR_SENHA = 'senha do usuario administrador';
 ```
-4.rode o script de criação da tabela comentarios no arquivo `database\19700101_criar_tabela_comentario.sql`
+4. Execute o script de criação de tabelas na pasta
+[database](./database). 
 
-# Clone este repositório
+#### Clonando o repositório
 $ git clone https://github.com/EliasPaulaSouza/EQMaravilha.git
 
-# Acesse a pasta do projeto no terminal/cmd
+#### Acessando a pasta do projeto no terminal/cmd
+```bash   
 $ cd EQMaravilha
-
-#### Rodando o servidor
-```bash    
-# Execute a aplicação em modo de desenvolvimento
-php -S localhost:8000
-
-# O servidor iniciará na porta:8000 - acesse <http://localhost:8000>
 ```
+
+#### Rodando o servidor em ambiente de desenvolvimento
+
+1. Na pasta raiz do projeto execute a aplicação em modo de desenvolvimento com o comando:
+```bash    
+php -S localhost:8000
+```
+2. O servidor iniciará e poderá ser acessado pelo navegador na url: [http://localhost:8000](http://localhost:8000)
+
 ---
 ## 🛠 Tecnologias
 
@@ -75,7 +80,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 O seguinte template foi usado no projeto:
 - [Nocobot Free Website Template](https://www.os-templates.com/free-website-templates/nocobot)
 ---
-
 
 ## 💪 Como contribuir para o projeto
 
