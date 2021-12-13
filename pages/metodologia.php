@@ -171,7 +171,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li>Definindo as funcionalidades que o sistema deveria disponibilizar pensou-se no diagrama de classe que poderia ser
             utilizado para construção do site. Após isso, pensou-se no modelo do banco de dados que seria necessário para acomodar
             as informações. Por fim, para o front-end foi utilizado um template gratuito denominado Nocoboot,
-            disponível em: <a href="https://www.free-css.com/free-css-templates/page267/nocobot.">
+            disponível em: <a href="https://www.free-css.com/free-css-templates/page267/nocobot">
               https://www.free-css.com/free-css-templates/page267/nocobot.</a> Este template forneceu
             toda a estrutura (HTML), estilo(CSS) e dinâmica(JavaScript) base para as páginas do site. Dessa forma,
             com o conhecimento adquirido no curso técnico de informática do IFMS campus Jardim, foi possível adaptar
@@ -187,7 +187,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <li>
             <p> Uma forma de validar o alcance do objetivo da EQ foi através da repercussão nas redes sociais,
               desafio de Desenho Digital promovido pelo Festival de Arte e Cultura do IFMS e principalmente pelos
-              feedbacks recebidos através da EQ digital publicada no endereço <a href="https://www.eqmaravilha.online.">https://www.eqmaravilha.online.</a></p>
+              feedbacks recebidos através da EQ digital publicada no endereço <a href="https://www.eqmaravilha.online">https://www.eqmaravilha.online.</a></p>
 
           </li>
 

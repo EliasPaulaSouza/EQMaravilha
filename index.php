@@ -80,7 +80,7 @@ Licence URI: https://www.os-templates.com/template-terms
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="artes/personagem_arthur.jpeg" alt=""></a>
+          <figure><a class="imgover" ><img src="artes/personagem_arthur.jpeg" alt=""></a>
             <figcaption>
               <h6 class="heading">Mike</h6>
               <div>
@@ -94,7 +94,7 @@ Licence URI: https://www.os-templates.com/template-terms
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="artes/personagem_shin.jpeg" alt=""></a>
+          <figure><a class="imgover" ><img src="artes/personagem_shin.jpeg" alt=""></a>
             <figcaption>
               <h6 class="heading">Jonas</h6>
               <div>
@@ -120,7 +120,7 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
           </figure>
         </li>-->
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="artes/pergonagem_sofi.jpeg" alt=""></a>
+          <figure><a class="imgover" ><img src="artes/pergonagem_sofi.jpeg" alt=""></a>
             <figcaption>
               <h6 class="heading">Helena</h6>
               <div>
@@ -139,12 +139,13 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
     <hr class="btmspace-80">
     <!-- ################################################################################################ -->
     <section class="group">
-      <div class="one_half first" ><a href="/pages/quadrinhos.php"><img  class="inspace-15 borderedbox" src="artes/00.png" alt=""></a></div>
+      <div class="one_half first" ><a href="/pages/quadrinhos.php"><img  class="inspace-15 borderedbox" src="artes/00.jpg" alt=""></a> <a href="/pages/quadrinhos.php"><button type="button" class="btn btn-danger">Ler</button></a></div>
       <div class="one_half">
+    
         <ul class="nospace group inspace-15">
           <li>
             <article>
-              <h6 class="heading"><a style="color: blue;" >sinopse</a></h6>
+              <h6 class="heading"><a style="color: #A52A2A;" >sinopse</a></h6>
               <p class="nospace">Se passa no mundo real, em uma Instituição Federal(IF), demarcando as sensações desses alunos. O protagonista com seus amigos, abordará em cada capítulo uma dificuldade que estudantes enfrentam ao longo do tempo dentro do IF.
               </p>
             </article>
@@ -152,7 +153,7 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
           <br>
           <li>
             <article>
-              <h6 class="heading"><a style="color: blue;">Público Alvo</a></h6>
+              <h6 class="heading"><a style="color: #A52A2A;">Público Alvo</a></h6>
               <p class="nospace">Com roteiros repletos de humor e instruções, a HQ é destinada para futuros integrantes da instituição.
 
 
@@ -221,22 +222,22 @@ Além de situações gosta de bancar o sábio mesmo que nem sempre é a informa�
     </div>
     <ul class="nospace group team">
       <li class="one_quarter first">
-        <figure><a class="imgover"><img src="images/demo/300x300.png" alt=""></a>
+        <figure><a class="imgover"><img src="" alt=""></a>
           <figcaption><strong>Aurelio Vargas Ramos Junior </strong><em>ORIENTADOR</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
-        <figure><a class="imgover"><img src="images/demo/300x300.png" alt=""></a>
+        <figure><a class="imgover"><img src="" alt=""></a>
           <figcaption><strong>Aghata Pereira Pigari</strong> <em>ESTUDANTE</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
-        <figure><a class="imgover"><img src="images/demo/300x300.png" alt=""></a>
+        <figure><a class="imgover"><img src="" alt=""></a>
           <figcaption><strong>Elias De Paula Souza</strong> <em>ESTUDANTE</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
-        <figure><a class="imgover"><img src="images/demo/300x300.png" alt=""></a>
+        <figure><a class="imgover"><img src="" alt=""></a>
           <figcaption><strong>Camila Yumi Koike</strong> <em>COORIENTADORA</em></figcaption>
         </figure>
       </li>

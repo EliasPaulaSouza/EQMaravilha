@@ -92,6 +92,7 @@ Licence URI: https://www.os-templates.com/template-terms
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4" selected="selected">4</option>
+              <option value="5" >5</option>
 
             </select>
           </div>
@@ -99,11 +100,11 @@ Licence URI: https://www.os-templates.com/template-terms
 
 
           <div class="col-md-12">
-            <img src="../artes/04.png" class="img_livro" alt="" />
+            <img src="../artes/04.jpg" class="img_livro" alt="" />
           </div>
           <div id="control-container" class="col-md-12">
             <a href="quadrinhos_3.php" class="vertical-btn btn btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-            <a href="quadrinhos.php" class="vertical-btn btn btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a href="quadrinhos_5.php" class="vertical-btn btn btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </div>
         <br />

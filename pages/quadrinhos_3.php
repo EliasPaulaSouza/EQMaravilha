@@ -86,18 +86,22 @@ Licence URI: https://www.os-templates.com/template-terms
 
           <div class="col-md-12">
             <label for="">Página:</label>
+
             <select class="form-control" id="control-paginas" onchange="change_page()" name="size">
+              <option value="0">capa</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3" selected="selected">3</option>
-              <option value="4">4</option>
+              <option value="4" >4</option>
+              <option value="5">5</option>
+
             </select>
           </div>
 
 
 
           <div class="col-md-12">
-            <img src="../artes/03.png" class="img_livro" alt="" />
+            <img src="../artes/03.jpg" class="img_livro" alt="" />
           </div>
           <div id="control-container" class="col-md-12">
             <a href="quadrinhos_2.php" class="vertical-btn btn btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>

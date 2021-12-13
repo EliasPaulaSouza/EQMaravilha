@@ -95,6 +95,7 @@ Licence URI: https://www.os-templates.com/template-terms
               <option value="2">2</option>
               <option value="3">3</option>
               <option value="4">4</option>
+              <option value="5">5</option>
              
             </select>
 
@@ -105,7 +106,7 @@ Licence URI: https://www.os-templates.com/template-terms
 
 
           <div class="col-md-12">
-            <img src="../artes/00.png" class="img_livro" alt="">
+            <img src="../artes/00.jpg" class="img_livro" alt="">
           </div>
           <div id="control-container" class="col-md-12">
             <a href="quadrinhos_1.php" class="vertical-btn btn btn-primary"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
